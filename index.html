@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Retainer Agreement Document">
+    <meta name="keywords" content="Retainer agreement, legal document, Alvin Welsh Legal">
+    <meta name="author" content="Alvin Welsh Legal">
+    <link rel="stylesheet" href="style.css">
+    <title>Alvin Welsh Legal - Retainer Agreement</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Alvin Welsh Legal</h1>
+            <h2>Retainer Agreement</h2>
+            <p>
+                This Agreement is made between <strong>Alvin Welsh Legal</strong> (“Attorney”) and <strong>Diane Deslauriers</strong> (“Client”) as of <strong><span id="datePlaceholder">[Date]</span></strong>.
+            </p>
+            <h3>Scope of Services</h3>
+            <p>
+                Attorney will represent Client to ensure the safe return of Client’s husband, <strong>Chris Willett</strong>, from Odessa, Ukraine.
+            </p>
+            <h3>Fees and Payment</h3>
+            <p>
+                Client agrees to pay Attorney a retainer fee of $75,000, covering initial consultation, document preparation, and legal representation. Payment is due upon signing via <strong>Bank Transfer, Local Deposit, E-transfer</strong>.
+            </p>
+            <h3>Responsibilities</h3>
+            <p>
+                Client will provide necessary information and cooperate fully with Attorney.
+            </p>
+            <h3>Termination</h3>
+            <p>
+                Either party may terminate with written notice. Additional work beyond the retainer fee will be billed.
+            </p>
+            <h3>Governing Law</h3>
+            <p>
+                This Agreement is governed by the laws of <strong>New York, USA</strong>.
+            </p>
+            <h3>Client Information:</h3>
+            <ul>
+                <li><strong>Full Name:</strong> Diane Deslauriers</li>
+                <li><strong>Email:</strong> dianeharvey@outlook.fr</li>
+                <li><strong>Phone Number:</strong> +1514 212 6266</li>
+            </ul>
+            <h3>Attorney Information:</h3>
+            <ul>
+                <li><strong>Name:</strong> Alvin Welsh Legal</li>
+                <li><strong>Email:</strong> info@alvinwelshlegal.com</li>
+            </ul>
+            <p>
+                Signatures:
+            </p>
+            <p>
+                <strong>Client:</strong> ______________________________<br>
+            </p>
+            <p>
+                <strong>Attorney:</strong> <span class="signature">Alvin Welsh</span><br>
+                <span id="attorneyDatePlaceholder">[Date]</span>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Get current date and format as YYYY-MM-DD
+        var today = new Date().toISOString().split('T')[0];
+        // Replace the date placeholder with the current date
+        document.getElementById('datePlaceholder').textContent = today;
+        document.getElementById('attorneyDatePlaceholder').textContent = today;
+    </script>
+</body>
+</html>
